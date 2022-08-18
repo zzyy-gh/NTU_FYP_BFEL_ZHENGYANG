@@ -4,6 +4,7 @@ last update: 18 August 2022
 ## Setup
 
 ## Run
+Simulate training process.
 1. Start IPFS: ``` ipfs daemon ```
 2. Start FISCO BCOS blockchain: ``` cd <parent directory>/fisco/nodes/127.0.0.1 && bash start_all.sh ```
 3. Deploy smart contract: ``` cd <parent directory>/fisco_python_sdk && python BFEL_deploy.py ```
