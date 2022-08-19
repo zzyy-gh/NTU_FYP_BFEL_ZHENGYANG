@@ -12,15 +12,6 @@ last updated on: 19 August 2022
    2. Unzip the file: `tar -xvzf kubo_v0.14.0_linux-amd64.tar.gz`
    3. Move into the `kubo` folder and run the install script: `cd kubo && sudo bash install.sh`
 
-## Key Files and Directories
-
-1. To store smart contracts: `<parent directory>/fisco_python_sdk/contracts`
-2. To deploy smart contracts: `<parent directory>/fisco_python_sdk/BFEL_deploy.py`
-3. Python module to communicate with FISCO blockchain: `<parent directory>/fisco_python_sdk/BFEL_api.py`
-4. Python module to communicate with IPFS: `<parent directory>/fisco_python_sdk/IPFS_module.py`
-5. FL aggregator Sample: `<parent directory>/fisco_python_sdk/server.py`
-6. FL client sample: `<parent directory>/fisco_python_sdk/client1.py` (or client2.py)
-
 ## Run (Ubuntu)
 
 1. Start IPFS: `ipfs daemon`
@@ -29,6 +20,15 @@ last updated on: 19 August 2022
 4. Start aggregator: `cd <parent directory>/fisco_python_sdk && python server.py <smart contract address returned from deploying smart contract (Step 3)>`
 5. Start worker 1: `cd <parent directory>/fisco_python_sdk && python client1.py <smart contract address returned from deploying smart contract (Step 3)>`
 6. Start worker 2: `cd <parent directory>/fisco_python_sdk && python client2.py <smart contract address returned from deploying smart contract (Step 3)>`
+
+## Key Files and Directories
+
+1. To store smart contracts: `<parent directory>/fisco_python_sdk/contracts`
+2. To deploy smart contracts: `<parent directory>/fisco_python_sdk/BFEL_deploy.py`
+3. Python module to communicate with FISCO blockchain: `<parent directory>/fisco_python_sdk/BFEL_api.py`
+4. Python module to communicate with IPFS: `<parent directory>/fisco_python_sdk/IPFS_module.py`
+5. FL aggregator Sample: `<parent directory>/fisco_python_sdk/server.py`
+6. FL client sample: `<parent directory>/fisco_python_sdk/client1.py` (or client2.py)
 
 ## References
 
