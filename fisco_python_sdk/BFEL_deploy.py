@@ -23,8 +23,8 @@ from client_config import client_config
 import sys
 import traceback
 # 从文件加载abi定义
-# if os.path.isfile(client_config.solc_path) or os.path.isfile(client_config.solcjs_path):
-#     Compiler.compile_file("contracts/Metadata.sol")
+if os.path.isfile(client_config.solc_path) or os.path.isfile(client_config.solcjs_path):
+    Compiler.compile_file("contracts/Metadata.sol")
 
 abi_file = "contracts/Metadata.abi"
 data_parser = DatatypeParser()
