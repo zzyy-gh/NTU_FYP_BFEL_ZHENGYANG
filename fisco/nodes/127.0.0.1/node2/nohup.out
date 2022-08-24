@@ -97,3 +97,20 @@ Git Branch         : HEAD
 Git Commit Hash    : b8a2362911462ccc3a19862bdd418b4f486f5601
 [2022-08-18 08:23:48] The FISCO-BCOS is running...
 [2022-08-18 08:25:59] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-08-24 04:07:03] Initializing...
+FISCO-BCOS Version : 2.9.0
+Build Time         : 20220516 06:12:02
+Build Type         : Linux/clang/Release
+Git Branch         : HEAD
+Git Commit Hash    : b8a2362911462ccc3a19862bdd418b4f486f5601
+[2022-08-24 04:07:03] The FISCO-BCOS is running...
+[2022-08-24 04:21:16] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-08-24 08:14:12] Initializing...
+FISCO-BCOS Version : 2.9.0
+Build Time         : 20220516 06:12:02
+Build Type         : Linux/clang/Release
+Git Branch         : HEAD
+Git Commit Hash    : b8a2362911462ccc3a19862bdd418b4f486f5601
+[2022-08-24 08:14:12] The FISCO-BCOS is running...

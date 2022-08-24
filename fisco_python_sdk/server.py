@@ -5,7 +5,6 @@ import json
 import BFEL_api as Fisco
 import IPFS_module as IPFS
 from flwr.common import parameters_to_ndarrays, ndarrays_to_parameters
-import chardet
 
 # sys args
 uid = "aggregator"
@@ -101,6 +100,7 @@ class SaveModelStrategy(fl.server.strategy.FedAvg):
         failures
     ):
     # fetch here
+        print('results fitres', type(results[0][1].parameters))
         aggregated_weights = super().aggregate_fit(rnd, results, failures)
         if aggregated_weights is not None:
             # Save aggregated_weights

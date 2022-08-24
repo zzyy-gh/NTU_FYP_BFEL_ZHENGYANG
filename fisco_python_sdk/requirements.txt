@@ -20,3 +20,5 @@ pyOpenSSL
 
 flwr
 ipyfs
+tensorflow
+seaborn
