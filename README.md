@@ -68,7 +68,11 @@ last updated on: 19 August 2022
       ```
       cd kubo && sudo bash install.sh
       ```
-
+   4. Initialize IPFS.
+      ```
+      ipfs init
+      ```
+      
 ## Run (Ubuntu)
 
 1. Start IPFS.
