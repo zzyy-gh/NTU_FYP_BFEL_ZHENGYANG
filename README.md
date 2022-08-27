@@ -8,19 +8,20 @@ last updated on: 19 August 2022
    ```
    git clone git@github.com:zzyy-gh/NTU_FYP_BFEL_ZHENGYANG.git
    ```
-2. Install packages for FISCO BCOS Blockchain. 
+2. Install packages for FISCO BCOS Blockchain.
    ```
    sudo apt install -y openssl curl default-jdk
    ```
 3. Setup Python 3.7.10:
-   1. Install necessary packages for pyenv. 
+   1. Install necessary packages for pyenv.
       ```
       sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
       ```
-   2. Git clone pyenv. 
-      ```
+   2. Git clone pyenv.
+      ````
       git clone https://github.com/pyenv/pyenv.git ~/.pyenv```
-   3. Setup bash. 
+      ````
+   3. Setup bash.
       ```
       echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
       echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
@@ -41,8 +42,8 @@ last updated on: 19 August 2022
    7. Refresh bash terminal.
       ```
       source ~/.bashrc
-      ```      
-4. Preparing FISCO Python SDK: 
+      ```
+4. Preparing FISCO Python SDK:
    1. Install linux packages.
       ```
       sudo apt install -y zlib1g-dev libffi7 libffi-dev wget git
@@ -72,7 +73,7 @@ last updated on: 19 August 2022
       ```
       ipfs init
       ```
-      
+
 ## Run (Ubuntu)
 
 1. Start IPFS.
@@ -102,27 +103,27 @@ last updated on: 19 August 2022
 
 ## Key Files and Directories
 
-1. To store smart contracts: 
+1. To store smart contracts:
    ```
    <parent directory>/fisco_python_sdk/contracts
    ```
-2. To deploy smart contracts: 
+2. To deploy smart contracts:
    ```
    <parent directory>/fisco_python_sdk/BFEL_deploy.py
    ```
-3. Python module to communicate with FISCO blockchain: 
+3. Python module to communicate with FISCO blockchain:
    ```
    <parent directory>/fisco_python_sdk/BFEL_api.py
    ```
-4. Python module to communicate with IPFS: 
+4. Python module to communicate with IPFS:
    ```
    <parent directory>/fisco_python_sdk/IPFS_module.py
    ```
-5. FL aggregator Sample: 
+5. FL aggregator Sample:
    ```
    <parent directory>/fisco_python_sdk/server.py
    ```
-6. FL client sample: 
+6. FL client sample:
    ```
    <parent directory>/fisco_python_sdk/client1.py (or client2.py)
    ```
