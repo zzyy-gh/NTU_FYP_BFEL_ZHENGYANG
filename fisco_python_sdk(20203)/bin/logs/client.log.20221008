@@ -1,0 +1,134 @@
+2022-10-08 00:41:08,003 DEBUG - connect 127.0.0.1:20200,as socket <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 37510), raddr=('127.0.0.1', 20200)>
+2022-10-08 00:41:08,055 DEBUG - ChannelRecvThread:start thread-->
+2022-10-08 00:41:08,056 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:41:08,058 DEBUG - channelSendThread:start thread-->
+2022-10-08 00:41:08,058 DEBUG - Thread-4:start thread-->
+2022-10-08 00:41:08,059 DEBUG - channelHandler:start thread-->
+2022-10-08 00:41:08,071 DEBUG - channelSendThread send pack len:70,type:0x12,result:0x0,seq:b'925d4b5846dc11edb69b412684453ed0',data:b'{"jsonrpc": "2.0", "method": "getBlockNumber", "params": [1], "id": 0}'
+2022-10-08 00:41:08,080 DEBUG - channelHandler.ssock.recv len:84
+2022-10-08 00:41:08,080 DEBUG - total bytes to decode 84, datalen 84
+2022-10-08 00:41:08,080 DEBUG - ChannelRecvThread:pack from node, put queue(qsize0),detail len:84,type:0x12,result:0x0,seq:b'925d4b5846dc11edb69b412684453ed0',data:b'{"id":0,"jsonrpc":"2.0","result":"0x17e"}\n'
+2022-10-08 00:41:08,081 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:41:08,082 DEBUG - onResponse, emitter: getResult_b'925d4b5846dc11edb69b412684453ed0'_18
+2022-10-08 00:41:08,082 DEBUG - response from server , seq: b'925d4b5846dc11edb69b412684453ed0', type:18
+2022-10-08 00:41:08,082 DEBUG - block notify emitter: onResponse_b'00000000000000000000000000000000'_4097
+2022-10-08 00:41:08,082 INFO - using protocol channel
+2022-10-08 00:41:08,084 DEBUG - channelSendThread send pack len:19,type:0x32,result:0x0,seq:b'925d4b5946dc11edb69b412684453ed0',data:["_block_notify_1"]
+2022-10-08 00:41:11,089 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'942a31e446dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:14,093 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'95f48eb646dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:17,110 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'97c0e30c46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:20,126 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'998d203846dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:23,138 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9b58bfb246dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:26,152 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9d2494c446dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:30,343 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9fa420c046dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:33,351 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a16f23aa46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:36,360 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a33a467446dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:39,368 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a50536b246dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:42,404 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a6d474bc46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:45,411 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a89f48bc46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:48,415 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'aa69b42a46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:51,421 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ac3443f646dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:54,450 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ae0284ae46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:41:57,457 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'afcd543046dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:00,464 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b1983b9a46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:03,473 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b3634cc646dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:06,477 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b52dc00446dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:09,485 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b6f8a82c46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:12,498 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b8c402dc46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:15,502 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ba8ebef446dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:18,506 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'bc59251c46dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:21,513 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'be24038046dc11edb69b412684453ed0',data:b''
+2022-10-08 00:42:24,521 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'bfeef83246dc11edb69b412684453ed0',data:b''
+2022-10-08 00:48:14,668 DEBUG - connect 127.0.0.1:20200,as socket <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 37516), raddr=('127.0.0.1', 20200)>
+2022-10-08 00:48:14,671 DEBUG - ChannelRecvThread:start thread-->
+2022-10-08 00:48:14,672 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:48:14,672 DEBUG - channelSendThread:start thread-->
+2022-10-08 00:48:14,672 DEBUG - Thread-4:start thread-->
+2022-10-08 00:48:14,673 DEBUG - channelHandler:start thread-->
+2022-10-08 00:48:14,673 DEBUG - channelSendThread send pack len:70,type:0x12,result:0x0,seq:b'90a3f52246dd11edb69b412684453ed0',data:b'{"jsonrpc": "2.0", "method": "getBlockNumber", "params": [1], "id": 0}'
+2022-10-08 00:48:14,674 DEBUG - channelHandler.ssock.recv len:84
+2022-10-08 00:48:14,674 DEBUG - total bytes to decode 84, datalen 84
+2022-10-08 00:48:14,674 DEBUG - ChannelRecvThread:pack from node, put queue(qsize0),detail len:84,type:0x12,result:0x0,seq:b'90a3f52246dd11edb69b412684453ed0',data:b'{"id":0,"jsonrpc":"2.0","result":"0x17e"}\n'
+2022-10-08 00:48:14,675 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:48:14,676 DEBUG - onResponse, emitter: getResult_b'90a3f52246dd11edb69b412684453ed0'_18
+2022-10-08 00:48:14,676 DEBUG - response from server , seq: b'90a3f52246dd11edb69b412684453ed0', type:18
+2022-10-08 00:48:14,677 DEBUG - block notify emitter: onResponse_b'00000000000000000000000000000000'_4097
+2022-10-08 00:48:14,677 INFO - using protocol channel
+2022-10-08 00:48:14,678 DEBUG - channelSendThread send pack len:19,type:0x32,result:0x0,seq:b'90a3f52346dd11edb69b412684453ed0',data:["_block_notify_1"]
+2022-10-08 00:48:17,684 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'926f577046dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:20,689 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9439de2246dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:23,695 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9604978846dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:26,698 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'97cecbe246dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:29,703 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'99994e6646dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:32,706 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9b6396b646dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:35,710 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9d2decbc46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:38,714 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'9ef8407e46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:41,721 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a0c3308046dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:44,725 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a28d8a1446dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:47,729 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a457e95246dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:50,734 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a62257f446dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:53,738 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a7ecc48e46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:56,742 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'a9b73d9e46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:48:59,747 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ab81adf846dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:02,751 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ad4bfeea46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:05,798 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'af1a38ea46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:08,866 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b0f039d046dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:11,888 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b2be48a646dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:14,893 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b488d29646dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:17,897 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b653353a46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:20,917 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b81f8d8246dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:23,972 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'b9f0cbee46dd11edb69b412684453ed0',data:b''
+2022-10-08 00:49:27,083 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'bbcb2ac246dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:30,239 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'bdabfcf446dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:33,460 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'bf98c28646dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:36,663 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'c17d8a5a46dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:39,715 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'c353757e46dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:42,914 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'c538722246dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:46,015 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'c70eeee646dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:49,224 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'c8fc67f646dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:52,367 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'cadb196e46dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:55,558 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'ccc2119246dd11edb69c412684453ed0',data:b''
+2022-10-08 00:49:58,705 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'cea333a646dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:01,892 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd086f67646dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:05,064 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd26d3a9046dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:08,083 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd43cc53446dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:11,107 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd60a4e9a46dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:14,120 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd7d6246a46dd11edb69c412684453ed0',data:b''
+2022-10-08 00:50:17,170 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'd9a6630e46dd11edb69d412684453ed0',data:b''
+2022-10-08 00:50:20,211 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'db76822246dd11edb69d412684453ed0',data:b''
+2022-10-08 00:50:23,242 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'dd45fea246dd11edb69d412684453ed0',data:b''
+2022-10-08 00:50:26,270 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'df14144e46dd11edb69d412684453ed0',data:b''
+2022-10-08 00:50:29,283 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'e0ded9e446dd11edb69d412684453ed0',data:b''
+2022-10-08 00:53:43,224 DEBUG - connect 127.0.0.1:20200,as socket <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 37522), raddr=('127.0.0.1', 20200)>
+2022-10-08 00:53:43,228 DEBUG - ChannelRecvThread:start thread-->
+2022-10-08 00:53:43,228 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:53:43,228 DEBUG - channelSendThread:start thread-->
+2022-10-08 00:53:43,229 DEBUG - Thread-4:start thread-->
+2022-10-08 00:53:43,229 DEBUG - channelHandler:start thread-->
+2022-10-08 00:53:43,230 DEBUG - channelSendThread send pack len:70,type:0x12,result:0x0,seq:b'5479afe646de11edb69e412684453ed0',data:b'{"jsonrpc": "2.0", "method": "getBlockNumber", "params": [1], "id": 0}'
+2022-10-08 00:53:43,231 DEBUG - channelHandler.ssock.recv len:84
+2022-10-08 00:53:43,231 DEBUG - total bytes to decode 84, datalen 84
+2022-10-08 00:53:43,231 DEBUG - ChannelRecvThread:pack from node, put queue(qsize0),detail len:84,type:0x12,result:0x0,seq:b'5479afe646de11edb69e412684453ed0',data:b'{"id":0,"jsonrpc":"2.0","result":"0x17e"}\n'
+2022-10-08 00:53:43,232 DEBUG - ChannelRecvThread channelHandler.ssock.recv begin.
+2022-10-08 00:53:43,232 DEBUG - onResponse, emitter: getResult_b'5479afe646de11edb69e412684453ed0'_18
+2022-10-08 00:53:43,232 DEBUG - response from server , seq: b'5479afe646de11edb69e412684453ed0', type:18
+2022-10-08 00:53:43,233 DEBUG - block notify emitter: onResponse_b'00000000000000000000000000000000'_4097
+2022-10-08 00:53:43,233 INFO - using protocol channel
+2022-10-08 00:53:43,234 DEBUG - channelSendThread send pack len:19,type:0x32,result:0x0,seq:b'5479afe746de11edb69e412684453ed0',data:["_block_notify_1"]
+2022-10-08 00:53:46,240 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'5645126646de11edb69e412684453ed0',data:b''
+2022-10-08 00:53:49,254 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'5810f30846de11edb69e412684453ed0',data:b''
+2022-10-08 00:53:52,269 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'59dd0e3846de11edb69e412684453ed0',data:b''
+2022-10-08 00:53:55,273 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'5ba7581846de11edb69e412684453ed0',data:b''
+2022-10-08 00:53:58,277 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'5d71b6fc46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:01,282 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'5f3c3a3e46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:04,285 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6106821646de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:07,289 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'62d0d52e46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:10,292 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'649b2a8046de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:13,303 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6666841846de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:16,307 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6830eea046de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:19,312 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'69fb680046de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:22,318 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6bc614aa46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:25,335 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6d927d6e46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:28,344 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'6f5d996c46de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:31,355 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'7128bcf446de11edb69e412684453ed0',data:b''
+2022-10-08 00:54:34,373 DEBUG - channelSendThread send pack len:0,type:0x13,result:0x0,seq:b'72f5993046de11edb69e412684453ed0',data:b''

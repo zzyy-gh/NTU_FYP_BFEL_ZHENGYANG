@@ -1,0 +1,52 @@
+config file path : config.ini
+[2022-10-09 02:52:07] Initializing...
+[INITIALIZER][P2PInitializer]initConfig for P2PInitializer failed,check Port=30302,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+
+config file path : config.ini
+[2022-10-09 02:52:27] Initializing...
+FISCO-BCOS Version : 2.9.1
+Build Time         : 20220922 08:57:35
+Build Type         : Linux/g++/Release
+Git Branch         : HEAD
+Git Commit Hash    : 83a87ad749475c0edcc6d5ce2dabd328a36d3bae
+[2022-10-09 02:52:27] The FISCO-BCOS is running...
+[2022-10-09 02:52:48] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-10-09 02:52:50] Initializing...
+FISCO-BCOS Version : 2.9.1
+Build Time         : 20220922 08:57:35
+Build Type         : Linux/g++/Release
+Git Branch         : HEAD
+Git Commit Hash    : 83a87ad749475c0edcc6d5ce2dabd328a36d3bae
+[2022-10-09 02:52:50] The FISCO-BCOS is running...
+config file path : config.ini
+[2022-10-09 02:56:17] Initializing...
+[INITIALIZER][P2PInitializer]initConfig for P2PInitializer failed,check Port=30302,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+
+config file path : config.ini
+[2022-10-09 02:56:39] Initializing...
+[INITIALIZER][P2PInitializer]initConfig for P2PInitializer failed,check Port=30302,EINFO=Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error> >
+std::exception::what: bind: Address already in use
+
+config file path : config.ini
+[2022-10-09 02:57:12] Initializing...
+FISCO-BCOS Version : 2.9.1
+Build Time         : 20220922 08:57:35
+Build Type         : Linux/g++/Release
+Git Branch         : HEAD
+Git Commit Hash    : 83a87ad749475c0edcc6d5ce2dabd328a36d3bae
+[2022-10-09 02:57:12] The FISCO-BCOS is running...
+[2022-10-09 03:01:26] FISCO-BCOS program exit normally.
+config file path : config.ini
+[2022-10-09 03:12:25] Initializing...
+FISCO-BCOS Version : 2.9.1
+Build Time         : 20220922 08:57:35
+Build Type         : Linux/g++/Release
+Git Branch         : HEAD
+Git Commit Hash    : 83a87ad749475c0edcc6d5ce2dabd328a36d3bae
+[2022-10-09 03:12:25] The FISCO-BCOS is running...
